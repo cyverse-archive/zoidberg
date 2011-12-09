@@ -2,6 +2,13 @@
 
 This project is the backend for the tool integration tool (TITO). It allows the front-end to interact with both the OSM and the Discovery Environment through a single service.
 
+
+NOTICE
+======
+
+This code is being released purely to be more open. A complete rewrite in Clojure is currently in development. This code is primarily intended as a reference.
+
+
 ## Deployment
 
 Zoidberg is packaged as a an RPM. This RPM depends on node-launch, which is another project that allows node.js apps to run as background processes. node-launch is written in Python 2.6, which means you should have the EPEL repository enabled when installing zoidberg.
