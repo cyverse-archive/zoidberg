@@ -22,7 +22,7 @@ PID_FILE  = $(RUN)/zoidberg.pid
 # Build the application.
 build:
 	$(MKDIR) $(BUILD)
-	$(CP) README $(BUILD)
+	$(CP) README.markdown $(BUILD)
 	$(COFFEE) -o $(BUILD) $(SRC)/*.coffee
 
 # Clean the application.
