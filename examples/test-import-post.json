@@ -1,0 +1,69 @@
+{
+         "groups": {
+                  "id": "--root-PropertyGroupContainer--",
+                  "name": "",
+                  "label": "Utter Sacred Words",
+                  "desc": "",
+                  "type": "",
+                  "isVisible": true,
+                  "groups": [
+                           {
+                                    "id": "",
+                                    "name": "",
+                                    "label": "Options",
+                                    "desc": "",
+                                    "type": "",
+                                    "isVisible": true,
+                                    "groups": [],
+                                    "properties": [
+                                             {
+                                                      "id": "B88C1479-1469-9AE8-EC03-BA7C7D2A11C3",
+                                                      "name": " --before-shrubbery ",
+                                                      "label": "Before Shrubbery",
+                                                      "desc": "Speak the workds that must be uttered before the arrival of the shrubbery!",
+                                                      "type": "Flag",
+                                                      "isVisible": true,
+                                                      "value": "true",
+                                                      "order": 0
+                                             },
+                                             {
+                                                      "id": "9C670505-5449-31D9-BC17-D77B7561E307",
+                                                      "name": " --after-shrubbery ",
+                                                      "label": "After Shrubbery",
+                                                      "desc": "Speak the words that must be uttered after the arrival of the shrubbery!",
+                                                      "type": "Flag",
+                                                      "isVisible": true,
+                                                      "value": "false",
+                                                      "order": 0
+                                             }
+                                    ]
+                           }
+                  ]
+         },
+         "input": [],
+         "output": [
+                  {
+                           "id": "05E256A3-FB6E-41C4-5C95-87E5A0546211",
+                           "name": "",
+                           "multiplicity": "One",
+                           "type": "Output File",
+                           "cmdSwitch": " --output=",
+                           "order": -1,
+                           "file_info_type_id": "0900E992-3BBD-4F4B-8D2D-ED289CA4E4F1",
+                           "file_info_type": "File",
+                           "format_id": [
+                                    "rt2c3eec11-011a-4152-b27b-00d73deab7cf"
+                           ],
+                           "format": [
+                                    "TXT"
+                           ]
+                  }
+         ],
+         "id": "05AFCA55-0509-8ECC-0B34-E910A89B1B0E",
+         "name": "Utter Sacred Words",
+         "desc": "Utter the the sacred words that need to be uttered when the time has come to utter sacred words!",
+         "component_id": "05AFCA55-0509-8ECC-0B34-E910A89B1B0E",
+         "component": "utter_sacred_words.pl",
+         "TYPE": "",
+         "tito": "05AFCA55-0509-8ECC-0B34-E910A89B1B0E"
+}

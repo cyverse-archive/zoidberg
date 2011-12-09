@@ -1,0 +1,14 @@
+# Ignore backup files.
+*~
+*.bak
+*.old
+
+# Ignore generated javascript files.
+*.js
+
+# Ignore log files from testing.
+zoidberg.log
+
+# Ignore generated directories.
+build
+run

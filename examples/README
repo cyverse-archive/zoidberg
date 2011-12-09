@@ -1,0 +1,10 @@
+Example documents used when testing.
+
+test-import-post.json
+  Used when testing the analysis-import endpoint with
+  a post.  Here is an example command:
+
+  curl -d "@examples/test-import-post.json" http://localhost:10000/analysis-import
+
+  (Note that this is run from the root directory of zoidberg, not the
+   examples directory!)
