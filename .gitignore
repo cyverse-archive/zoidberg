@@ -12,3 +12,6 @@ zoidberg.log
 # Ignore generated directories.
 build
 run
+
+# Ignore anything in the tmp directory.
+tmp
