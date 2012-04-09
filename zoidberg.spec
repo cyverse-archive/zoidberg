@@ -1,7 +1,7 @@
 Summary: Tool Integration Backend Service
 Name: iplant-zoidberg
 Version: 0.2.0
-Release: 4
+Release: 5
 Epoch: 0
 Group: Applications
 BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
@@ -36,7 +36,6 @@ make
 install -m755 build/* $RPM_BUILD_ROOT/usr/local/lib/node/iplant-zoidberg
 install -m755 src/iplant-zoidberg $RPM_BUILD_ROOT/etc/init.d/
 install -m755 conf/zoidberg.conf $RPM_BUILD_ROOT/etc/iplant-zoidberg.conf
-install -m755 scripts/import-tool.pl $RPM_BUILD_ROOT/usr/local/bin/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -44,7 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(0775,iplant,iplant)
 /usr/local/lib/node/iplant-zoidberg
-/usr/local/bin/import-tool.pl
 %config /var/log/iplant-zoidberg
 /etc/init.d/iplant-zoidberg
 %config /etc/iplant-zoidberg.conf
